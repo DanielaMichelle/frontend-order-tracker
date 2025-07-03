@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_BASE = 'https://backend-order-tracker.onrender.com/api/';
+const API_BASE = 'https://backend-order-tracker.onrender.com/api';
+// const API_BASE = 'https://frontend-order-tracker.vercel.app';
 
 // Órdenes
 export const getOrders = () => axios.get(`${API_BASE}/orders`);
