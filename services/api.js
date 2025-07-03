@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = 'https://backend-order-tracker.onrender.com/api/';
+const API_BASE = 'https://backend-order-tracker-1.onrender.com/api/';
 
 // Órdenes
 export const getOrders = () => axios.get(`${API_BASE}/orders`);
